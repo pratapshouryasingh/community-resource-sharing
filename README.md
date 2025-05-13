@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Community Resource Sharing is a next,React-based web application designed to facilitate the sharing and distribution of resources within communities. The platform enables NGOs to register and post their requirements, while community members can view and contribute to these needs based on their geographical proximity.
 
-## Getting Started
 
-First, run the development server:
+#FUTURE PLANS{
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+NGO Registration: Non-Governmental Organizations can sign up and create profiles to list their resource needs.
+Requirement Posting: Registered NGOs can post detailed resource requirements, including item descriptions and urgency levels.
+Location-Based Resource Visibility: Community members can view resource needs and offerings in their vicinity, enhancing local engagement.
+Interactive Dashboard: A user-friendly interface for NGOs and community members to manage their activities and contributions.
+}
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🛠️ Technologies Used
+Frontend: React.js, Tailwind CSS
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Backend: (Planned) Node.js with Express.js or Django
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Database: (Planned) MongoDB or PostgreSQL
 
-## Learn More
+Geolocation Services: (Planned) Integration of geolocation APIs for location-based features
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Home Page: Displays a welcome message and navigation options.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Navigation (Nev Component): Provides links to different sections of the application.
 
-## Deploy on Vercel
+NGO Dashboard: (Planned) Interface for NGOs to manage their profiles and resource postings.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Community Dashboard: (Planned) Interface for community members to view and contribute to resource needs.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🧱 Components
+Nev.js: Navigation bar component used across the application.
+
+Home.js: Landing page that integrates the Nev component and displays the main content.
